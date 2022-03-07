@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
         int[][] array1 = {{1, 0, 0, 0},
                 {0, 1, 0, 0},
                 {0, 0, 0, 0}};
@@ -21,6 +22,9 @@ public class Main {
                 }
             }
         }
+
+        System.out.println("Длина первого массива " + array1.length);
+        System.out.println("Длина второго массива " + array2.length);
 
         for (int i = 0; i < arraySumm.length; i++) {
             for (int j = 0; j < arraySumm.length; j++) {
